@@ -2,6 +2,7 @@ package top.daoyang.creation.factory;
 
 /**
  * 简单工厂类
+ * 缺点：所有实例都在一个工厂类中创建，违背了低内聚高耦合
  */
 public class EasyFactory {
     /**
