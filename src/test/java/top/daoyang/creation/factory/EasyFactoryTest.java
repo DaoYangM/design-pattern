@@ -1,9 +1,7 @@
 package top.daoyang.creation.factory;
 
-import org.junit.Assert;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class EasyFactoryTest {
 
@@ -12,16 +10,17 @@ class EasyFactoryTest {
         EasyFactory easyFactory = new EasyFactory();
 
         EasyFactory.Sender express = easyFactory.getSender("express");
-        Assert.assertNotNull(express);
+
+        Assertions.assertNotNull(express);
 
         EasyFactory.Sender sms = easyFactory.getSender("sms");
-        Assert.assertNotNull(sms);
+        Assertions.assertNotNull(sms);
 
         EasyFactory.Sender email = easyFactory.getSender("email");
-        Assert.assertNotNull(email);
+        Assertions.assertNotNull(email);
         email.send();
 
         EasyFactory.Sender test = easyFactory.getSender("test");
-        Assert.assertNull(test);
+        Assertions.assertNull(test);
     }
 }
