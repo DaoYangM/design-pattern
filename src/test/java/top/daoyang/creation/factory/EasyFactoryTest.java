@@ -19,6 +19,7 @@ class EasyFactoryTest {
 
         EasyFactory.Sender email = easyFactory.getSender("email");
         Assert.assertNotNull(email);
+        email.send();
 
         EasyFactory.Sender test = easyFactory.getSender("test");
         Assert.assertNull(test);

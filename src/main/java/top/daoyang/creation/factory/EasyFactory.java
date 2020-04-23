@@ -27,7 +27,7 @@ public class EasyFactory {
     }
 
     /**
-     * EmailSender
+     * EmailSender 实现接口 {@link Sender} 的{@code send}方法
      */
     public static class EmailSender implements Sender {
 
