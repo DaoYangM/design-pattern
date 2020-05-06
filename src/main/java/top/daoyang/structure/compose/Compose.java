@@ -47,7 +47,7 @@ public class Compose {
 
     public static class Composite extends Component {
 
-        private List<Component> components = new ArrayList<>();
+        private final List<Component> components = new ArrayList<>();
 
         public Composite(String name) {
             super(name);
