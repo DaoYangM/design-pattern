@@ -3,7 +3,7 @@ package top.daoyang.structure.adapter;
 import lombok.RequiredArgsConstructor;
 
 /**
- * 对象适配器模式
+ * 对象适配器模式: 使一个接口能适用于另一个接口
  * <p>
  * Duck -> TurkeyAdapter -> Turkey
  */

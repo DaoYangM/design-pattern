@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 组合模式
+ * 组合模式: 把部分和整体当作一样看待
  */
 public class Compose {
 

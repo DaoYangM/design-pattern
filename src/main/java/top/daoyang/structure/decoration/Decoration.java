@@ -3,7 +3,7 @@ package top.daoyang.structure.decoration;
 import lombok.RequiredArgsConstructor;
 
 /**
- * 装饰者模式
+ * 装饰者模式: 增强原接口
  */
 public class Decoration {
 
