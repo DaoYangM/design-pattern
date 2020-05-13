@@ -1,4 +1,4 @@
-package top.daoyang.behavioralpattern;
+package top.daoyang.behavioralpattern.chainofresponsibililty;
 
 import lombok.Data;
 import lombok.RequiredArgsConstructor;

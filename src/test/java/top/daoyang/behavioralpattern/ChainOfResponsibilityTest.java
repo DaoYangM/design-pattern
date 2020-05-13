@@ -1,8 +1,7 @@
 package top.daoyang.behavioralpattern;
 
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
+import top.daoyang.behavioralpattern.chainofresponsibililty.ChainOfResponsibility;
 
 class ChainOfResponsibilityTest {
 
